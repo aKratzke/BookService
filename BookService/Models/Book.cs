@@ -19,5 +19,8 @@ namespace BookService.Models
         public int AuthorID { get; set; }
         //Navigation property
         public Author Author { get; set; }
+
+        ////Virtual Navigation Property
+        //public virtual Author Author { get; set; }
     }
 }

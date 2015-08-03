@@ -506,14 +506,9 @@
             Delete an author. 
             </summary>
         </member>
-        <member name="M:BookService.Controllers.BooksController.GetBooks">
-            <summary>
-            Get all books.
-            </summary>
-        </member>
         <member name="M:BookService.Controllers.BooksController.GetBook(System.Int32)">
             <summary>
-            Get a book by ID.
+            Get a book by Id.
             </summary>
         </member>
         <member name="M:BookService.Controllers.BooksController.PutBook(System.Int32,BookService.Models.Book)">

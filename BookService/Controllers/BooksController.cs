@@ -118,7 +118,7 @@ namespace BookService.Controllers
             var dto = new BookDTO()
             {
                 Id = book.Id,
-                Title = book.Title(),
+                Title = book.Title,
                 AuthorName = book.Author.Name
             };
 
